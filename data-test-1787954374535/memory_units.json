@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mem_1787954376398_z44bc",
+    "concept": "Calibration frequency requirement",
+    "status": "CORROBORATED",
+    "supportingAduIds": [
+      "adu_doc_1787954376048_txzfy_1",
+      "adu_doc_1787954376048_txzfy_2",
+      "adu_doc_1787954376048_txzfy_3"
+    ],
+    "contradictingAduIds": [],
+    "confidence": 0.85,
+    "lastAssessedAt": 1787954376398
+  }
+]

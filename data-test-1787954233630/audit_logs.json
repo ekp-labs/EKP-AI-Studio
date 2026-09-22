@@ -1,0 +1,17 @@
+[
+  {
+    "id": "audit_1787954235545_mbpo8",
+    "intentionId": "int_1787954235544_m4ykw",
+    "actionId": "act_1787954235544_1",
+    "toolName": "execute_calibrated_task",
+    "approved": true,
+    "status": "EXECUTED",
+    "timestamp": 1787954235545,
+    "reviewerNotes": "Approved in Process A",
+    "resultPayload": {
+      "executedAt": 1787954235545,
+      "toolName": "execute_calibrated_task",
+      "output": "Successfully executed execute_calibrated_task for task Calibrate pressure regulator to 100Hz"
+    }
+  }
+]

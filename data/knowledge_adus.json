@@ -1,0 +1,19 @@
+[
+  {
+    "id": "adu_doc_1787943633837_vrbaa_1",
+    "documentId": "doc_1787943633837_vrbaa",
+    "content": "Secret keys must never be written to RuntimeGraph or state payloads.",
+    "type": "REQUIREMENT",
+    "confidence": 0.9,
+    "startLine": 1,
+    "endLine": 1,
+    "provenance": {
+      "sourceUri": "doc://security-boundary-document",
+      "sourceTitle": "Security Boundary Document",
+      "extractedAt": 1787943633837,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 1,
+      "endLine": 1
+    }
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mem_1787945618189_fipph",
+    "concept": "Calibration frequency requirement",
+    "status": "CORROBORATED",
+    "supportingAduIds": [
+      "adu_doc_1787945617776_tk8qr_1",
+      "adu_doc_1787945617776_tk8qr_2",
+      "adu_doc_1787945617776_tk8qr_3"
+    ],
+    "contradictingAduIds": [],
+    "confidence": 0.85,
+    "lastAssessedAt": 1787945618189
+  }
+]

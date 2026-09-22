@@ -1,0 +1,10 @@
+[
+  {
+    "id": "doc_1787943633837_vrbaa",
+    "title": "Security Boundary Document",
+    "domain": "Security",
+    "content": "Secret keys must never be written to RuntimeGraph or state payloads.",
+    "sourceUri": "doc://security-boundary-document",
+    "ingestedAt": 1787943633837
+  }
+]

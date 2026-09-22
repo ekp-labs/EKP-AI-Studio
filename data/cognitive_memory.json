@@ -1,0 +1,321 @@
+[
+  {
+    "id": "cku_1787938958376_7g0rj",
+    "concept": "Industrial",
+    "definition": "Consolidated knowledge regarding Industrial from Industrial Tension Spec",
+    "status": "CORROBORATED",
+    "supportingADUIds": [
+      "adu_doc_1787938958375_8kyf3_001",
+      "adu_doc_1787938958375_8kyf3_002",
+      "adu_doc_1787938973386_zbm8e_001",
+      "adu_doc_1787938973386_zbm8e_002",
+      "adu_doc_1787939330255_9uzju_001",
+      "adu_doc_1787939330255_9uzju_002",
+      "adu_doc_1787939426800_gcx82_001",
+      "adu_doc_1787939426800_gcx82_002",
+      "adu_doc_1787939426800_gcx82_003",
+      "adu_doc_1787939426800_gcx82_004",
+      "adu_doc_1787939426800_gcx82_005",
+      "adu_doc_1787939575647_if7tw_001",
+      "adu_doc_1787939575647_if7tw_002",
+      "adu_doc_1787939575647_if7tw_003",
+      "adu_doc_1787939575647_if7tw_004",
+      "adu_doc_1787939575647_if7tw_005",
+      "adu_doc_1787942810292_5ew2x_001",
+      "adu_doc_1787942810292_5ew2x_002",
+      "adu_doc_1787942818171_7srfy_001",
+      "adu_doc_1787942818171_7srfy_002",
+      "adu_doc_1787942818171_7srfy_003",
+      "adu_doc_1787942818171_7srfy_004",
+      "adu_doc_1787942818171_7srfy_005",
+      "adu_doc_1787943026630_zrvmt_001",
+      "adu_doc_1787943026630_zrvmt_002",
+      "adu_doc_1787943112772_imyjo_001",
+      "adu_doc_1787943112772_imyjo_002"
+    ],
+    "conflictingADUIds": [],
+    "confidenceScore": 0.85,
+    "firstObservedAt": "2026-08-28T17:42:38.376Z",
+    "lastConsolidatedAt": "2026-08-28T18:51:52.779Z",
+    "provenanceHistory": [
+      {
+        "sourceId": "doc_1787938958375_8kyf3",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://embroidery/tension-v1.md",
+        "sourceTitle": "Industrial Tension Spec",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:42:38.375Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787938973386_zbm8e",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://embroidery/tension-v1.md",
+        "sourceTitle": "Industrial Tension Spec",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:42:53.386Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787939330255_9uzju",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://embroidery/tension-v1.md",
+        "sourceTitle": "Industrial Tension Spec",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:48:50.255Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787939426800_gcx82",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "manual://textiles/embroidery-spec-v4.md",
+        "sourceTitle": "Industrial Embroidery Tension & Stabilizer Protocol",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:50:26.801Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787939575647_if7tw",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "manual://textiles/embroidery-spec-v4.md",
+        "sourceTitle": "Industrial Embroidery Tension & Stabilizer Protocol",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:52:55.647Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787938958375_8kyf3",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://embroidery/tension-v1.md",
+        "sourceTitle": "Industrial Tension Spec",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:42:38.375Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787942810292_5ew2x",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://embroidery/tension-v1.md",
+        "sourceTitle": "Industrial Tension Spec",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:46:50.292Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787942818171_7srfy",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "manual://textiles/embroidery-spec-v4.md",
+        "sourceTitle": "Industrial Embroidery Tension & Stabilizer Protocol",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:46:58.172Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787943026630_zrvmt",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://embroidery/tension-v1.md",
+        "sourceTitle": "Industrial Tension Spec",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:50:26.630Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787943112772_imyjo",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://embroidery/tension-v1.md",
+        "sourceTitle": "Industrial Tension Spec",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:51:52.772Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      }
+    ],
+    "domain": "Embroidery"
+  },
+  {
+    "id": "cku_1787939426803_0bo1f",
+    "concept": "Canonical",
+    "definition": "Consolidated knowledge regarding Canonical from Canonical Epistemic Knowledge Systems Specification",
+    "status": "CONSOLIDATED",
+    "supportingADUIds": [
+      "adu_doc_1787939426803_p2alg_001",
+      "adu_doc_1787939426803_p2alg_002",
+      "adu_doc_1787939426803_p2alg_003",
+      "adu_doc_1787939426803_p2alg_004",
+      "adu_doc_1787939426803_p2alg_005",
+      "adu_doc_1787939575651_6g80w_001",
+      "adu_doc_1787939575651_6g80w_002",
+      "adu_doc_1787939575651_6g80w_003",
+      "adu_doc_1787939575651_6g80w_004",
+      "adu_doc_1787939575651_6g80w_005",
+      "adu_doc_1787942818174_xmz78_001",
+      "adu_doc_1787942818174_xmz78_002",
+      "adu_doc_1787942818174_xmz78_003",
+      "adu_doc_1787942818174_xmz78_004",
+      "adu_doc_1787942818174_xmz78_005"
+    ],
+    "conflictingADUIds": [],
+    "confidenceScore": 0.85,
+    "firstObservedAt": "2026-08-28T17:50:26.803Z",
+    "lastConsolidatedAt": "2026-08-28T18:46:58.175Z",
+    "provenanceHistory": [
+      {
+        "sourceId": "doc_1787939426803_p2alg",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://architecture/canonical-ekp-v1.md",
+        "sourceTitle": "Canonical Epistemic Knowledge Systems Specification",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:50:26.803Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787939575651_6g80w",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://architecture/canonical-ekp-v1.md",
+        "sourceTitle": "Canonical Epistemic Knowledge Systems Specification",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:52:55.651Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787939426803_p2alg",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://architecture/canonical-ekp-v1.md",
+        "sourceTitle": "Canonical Epistemic Knowledge Systems Specification",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:50:26.803Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787942818174_xmz78",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "spec://architecture/canonical-ekp-v1.md",
+        "sourceTitle": "Canonical Epistemic Knowledge Systems Specification",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:46:58.175Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      }
+    ],
+    "domain": "Software Architecture"
+  },
+  {
+    "id": "cku_1787939426804_104gk",
+    "concept": "Epistemic",
+    "definition": "Consolidated knowledge regarding Epistemic from Epistemic Logic & Knowledge Justification Framework",
+    "status": "CONSOLIDATED",
+    "supportingADUIds": [
+      "adu_doc_1787939426804_tk8lc_001",
+      "adu_doc_1787939426804_tk8lc_002",
+      "adu_doc_1787939426804_tk8lc_003",
+      "adu_doc_1787939426804_tk8lc_004",
+      "adu_doc_1787939426804_tk8lc_005",
+      "adu_doc_1787939575653_3b588_001",
+      "adu_doc_1787939575653_3b588_002",
+      "adu_doc_1787939575653_3b588_003",
+      "adu_doc_1787939575653_3b588_004",
+      "adu_doc_1787939575653_3b588_005",
+      "adu_doc_1787942818176_v6cgs_001",
+      "adu_doc_1787942818176_v6cgs_002",
+      "adu_doc_1787942818176_v6cgs_003",
+      "adu_doc_1787942818176_v6cgs_004",
+      "adu_doc_1787942818176_v6cgs_005"
+    ],
+    "conflictingADUIds": [],
+    "confidenceScore": 0.86,
+    "firstObservedAt": "2026-08-28T17:50:26.804Z",
+    "lastConsolidatedAt": "2026-08-28T18:46:58.177Z",
+    "provenanceHistory": [
+      {
+        "sourceId": "doc_1787939426804_tk8lc",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "ref://cognitive-science/justified-belief.md",
+        "sourceTitle": "Epistemic Logic & Knowledge Justification Framework",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:50:26.804Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787939575653_3b588",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "ref://cognitive-science/justified-belief.md",
+        "sourceTitle": "Epistemic Logic & Knowledge Justification Framework",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:52:55.653Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787939426804_tk8lc",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "ref://cognitive-science/justified-belief.md",
+        "sourceTitle": "Epistemic Logic & Knowledge Justification Framework",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T17:50:26.804Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787942818176_v6cgs",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "ref://cognitive-science/justified-belief.md",
+        "sourceTitle": "Epistemic Logic & Knowledge Justification Framework",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:46:58.176Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      }
+    ],
+    "domain": "Cognitive Science"
+  },
+  {
+    "id": "cku_1787942992989_9rnrd",
+    "concept": "Secret",
+    "definition": "Consolidated knowledge regarding Secret from Security Boundary Document",
+    "status": "PROVISIONAL",
+    "supportingADUIds": [
+      "adu_doc_1787942992982_yvk1b_001",
+      "adu_doc_1787943010726_v14rv_001",
+      "adu_doc_1787943029313_db6o6_001",
+      "adu_doc_1787943119981_qq6as_001"
+    ],
+    "conflictingADUIds": [],
+    "confidenceScore": 0.85,
+    "firstObservedAt": "2026-08-28T18:49:52.989Z",
+    "lastConsolidatedAt": "2026-08-28T18:51:59.983Z",
+    "provenanceHistory": [
+      {
+        "sourceId": "doc_1787942992982_yvk1b",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787942992982_yvk1b",
+        "sourceTitle": "Security Boundary Document",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:49:52.982Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787943010726_v14rv",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943010726_v14rv",
+        "sourceTitle": "Security Boundary Document",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:50:10.727Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787943029313_db6o6",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943029313_db6o6",
+        "sourceTitle": "Security Boundary Document",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:50:29.313Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      }
+    ],
+    "domain": "Security"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "documents": [
+    {
+      "id": "doc_1787943119981_qq6as",
+      "title": "Security Boundary Document",
+      "sourceUri": "doc://doc_1787943119981_qq6as",
+      "domain": "Security",
+      "rawContent": "Secret keys must never be written to RuntimeGraph or state payloads.",
+      "ingestedAt": "2026-08-28T18:51:59.982Z",
+      "metadata": {
+        "totalLines": 1,
+        "blockCount": 1,
+        "domain": "Security"
+      },
+      "adus": [
+        {
+          "id": "adu_doc_1787943119981_qq6as_001",
+          "type": "CLAIM",
+          "content": "Secret keys must never be written to RuntimeGraph or state payloads.",
+          "summary": "Secret keys must never be written to RuntimeGraph or state payloads.",
+          "confidence": 0.85,
+          "tags": [
+            "claim",
+            "paragraph"
+          ],
+          "provenance": {
+            "sourceId": "doc_1787943119981_qq6as",
+            "sourceType": "DOCUMENT",
+            "sourceUri": "doc://doc_1787943119981_qq6as",
+            "sourceTitle": "Security Boundary Document",
+            "location": {
+              "startLine": 1,
+              "endLine": 1,
+              "sectionHeading": "Document Root"
+            },
+            "extractionStage": "ADU_SEGMENTATION",
+            "timestamp": "2026-08-28T18:51:59.982Z",
+            "agentOrModel": "EKP-Canonical-Segmenter-v1"
+          },
+          "entities": [
+            "Secret",
+            "RuntimeGraph"
+          ],
+          "metadata": {
+            "blockType": "paragraph",
+            "lineRange": "1-1"
+          },
+          "temporal": {
+            "observedAt": "2026-08-28T18:51:59.982Z"
+          }
+        }
+      ],
+      "totalADUs": 1
+    }
+  ]
+}

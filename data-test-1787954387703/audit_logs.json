@@ -1,0 +1,17 @@
+[
+  {
+    "id": "audit_1787954389958_mwiq9",
+    "intentionId": "int_1787954389954_gh3p4",
+    "actionId": "act_1787954389954_1",
+    "toolName": "execute_calibrated_task",
+    "approved": true,
+    "status": "EXECUTED",
+    "timestamp": 1787954389958,
+    "reviewerNotes": "Approved in Process A",
+    "resultPayload": {
+      "executedAt": 1787954389958,
+      "toolName": "execute_calibrated_task",
+      "output": "Successfully executed execute_calibrated_task for task Calibrate pressure regulator to 100Hz"
+    }
+  }
+]

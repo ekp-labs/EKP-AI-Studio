@@ -1,0 +1,53 @@
+[
+  {
+    "id": "adu_doc_1787954376048_txzfy_1",
+    "documentId": "doc_1787954376048_txzfy",
+    "content": "Spec Rules",
+    "type": "PREMISE_HEADING",
+    "confidence": 0.9,
+    "startLine": 1,
+    "endLine": 1,
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787954376049,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 1,
+      "endLine": 1
+    }
+  },
+  {
+    "id": "adu_doc_1787954376048_txzfy_2",
+    "documentId": "doc_1787954376048_txzfy",
+    "content": "Calibration frequency must be kept under 100Hz.",
+    "type": "REQUIREMENT",
+    "confidence": 0.9,
+    "startLine": 2,
+    "endLine": 2,
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787954376049,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 2,
+      "endLine": 2
+    }
+  },
+  {
+    "id": "adu_doc_1787954376048_txzfy_3",
+    "documentId": "doc_1787954376048_txzfy",
+    "content": "Requires safety inspection.",
+    "type": "CLAIM",
+    "confidence": 0.9,
+    "startLine": 3,
+    "endLine": 3,
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787954376049,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 3,
+      "endLine": 3
+    }
+  }
+]

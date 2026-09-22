@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mem_1787954250473_60i4h",
+    "concept": "Calibration frequency requirement",
+    "status": "CORROBORATED",
+    "supportingAduIds": [
+      "adu_doc_1787954250099_zr6x5_1",
+      "adu_doc_1787954250099_zr6x5_2",
+      "adu_doc_1787954250099_zr6x5_3"
+    ],
+    "contradictingAduIds": [],
+    "confidence": 0.85,
+    "lastAssessedAt": 1787954250473
+  }
+]

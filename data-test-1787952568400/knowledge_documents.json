@@ -1,0 +1,10 @@
+[
+  {
+    "id": "doc_1787952570068_1tigm",
+    "title": "Process Persistence Test Spec",
+    "domain": "Aerospace",
+    "content": "# Spec Rules\n- Calibration frequency must be kept under 100Hz.\n- Requires safety inspection.",
+    "sourceUri": "doc://process-persistence-test-spec",
+    "ingestedAt": 1787952570068
+  }
+]

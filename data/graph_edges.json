@@ -1,0 +1,19 @@
+[
+  {
+    "id": "edge_adu_doc_1787943633837_vrbaa_1_doc_1787943633837_vrbaa",
+    "sourceId": "adu_doc_1787943633837_vrbaa_1",
+    "targetId": "doc_1787943633837_vrbaa",
+    "type": "EXTRACTED_FROM",
+    "weight": 1,
+    "properties": {},
+    "provenance": {
+      "sourceUri": "doc://security-boundary-document",
+      "sourceTitle": "Security Boundary Document",
+      "extractedAt": 1787943633837,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 1,
+      "endLine": 1
+    },
+    "createdAt": 1787943633837
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "doc_1787952514116_b3iap",
+    "label": "Process Persistence Test Spec",
+    "type": "DOCUMENT",
+    "properties": {
+      "domain": "Aerospace",
+      "sourceUri": "doc://process-persistence-test-spec"
+    },
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787952514116,
+      "extractionStage": "DOCUMENT_INGESTION"
+    },
+    "version": 1,
+    "createdAt": 1787952514116,
+    "updatedAt": 1787952514116
+  },
+  {
+    "id": "adu_doc_1787952514116_b3iap_1",
+    "label": "Spec Rules...",
+    "type": "ADU",
+    "properties": {
+      "type": "PREMISE_HEADING",
+      "confidence": 0.9
+    },
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787952514117,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 1,
+      "endLine": 1
+    },
+    "version": 1,
+    "createdAt": 1787952514117,
+    "updatedAt": 1787952514117
+  },
+  {
+    "id": "adu_doc_1787952514116_b3iap_2",
+    "label": "Calibration frequency must be kept under...",
+    "type": "ADU",
+    "properties": {
+      "type": "REQUIREMENT",
+      "confidence": 0.9
+    },
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787952514117,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 2,
+      "endLine": 2
+    },
+    "version": 1,
+    "createdAt": 1787952514117,
+    "updatedAt": 1787952514117
+  },
+  {
+    "id": "adu_doc_1787952514116_b3iap_3",
+    "label": "Requires safety inspection....",
+    "type": "ADU",
+    "properties": {
+      "type": "CLAIM",
+      "confidence": 0.9
+    },
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787952514117,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 3,
+      "endLine": 3
+    },
+    "version": 1,
+    "createdAt": 1787952514117,
+    "updatedAt": 1787952514117
+  },
+  {
+    "id": "act_node_1787952514506_tl6fc",
+    "label": "Executed Action: execute_calibrated_task",
+    "type": "ACTION",
+    "properties": {
+      "toolName": "execute_calibrated_task",
+      "parameters": {
+        "task": "Calibrate pressure regulator to 100Hz",
+        "domain": "Aerospace"
+      },
+      "justification": "Execute operational procedure derived from task specification \"Calibrate pressure regulator to 100Hz\".",
+      "safetyAnalysis": "Action modifies system state; requires explicit human governance review.",
+      "approvedBy": "HUMAN_GOVERNOR"
+    },
+    "provenance": {
+      "sourceUri": "intention://int_1787952514505_wj5v5",
+      "sourceTitle": "Intention Task: task_1787952514505",
+      "extractedAt": 1787952514506,
+      "extractionStage": "ACTION_EXECUTION"
+    },
+    "version": 1,
+    "createdAt": 1787952514506,
+    "updatedAt": 1787952514506
+  },
+  {
+    "id": "res_node_1787952514506_79o36",
+    "label": "Result: execute_calibrated_task",
+    "type": "RESULT",
+    "properties": {
+      "executedAt": 1787952514506,
+      "toolName": "execute_calibrated_task",
+      "output": "Successfully executed execute_calibrated_task for task Calibrate pressure regulator to 100Hz"
+    },
+    "provenance": {
+      "sourceUri": "action://act_node_1787952514506_tl6fc",
+      "sourceTitle": "Executed Action Node",
+      "extractedAt": 1787952514506,
+      "extractionStage": "RESULT_GENERATION"
+    },
+    "version": 1,
+    "createdAt": 1787952514506,
+    "updatedAt": 1787952514506
+  }
+]

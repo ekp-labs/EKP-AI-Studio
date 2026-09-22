@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "doc_1787943119981_qq6as",
+      "type": "SOURCE_DOCUMENT",
+      "label": "Security Boundary Document",
+      "properties": {
+        "domain": "Security",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "aduCount": 1,
+        "ingestedAt": "2026-08-28T18:51:59.982Z"
+      },
+      "provenance": {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "extractionStage": "INGESTION_PIPELINE",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Ingestor-v1"
+      },
+      "createdAt": "2026-08-28T18:51:59.982Z",
+      "updatedAt": "2026-08-28T18:51:59.982Z",
+      "version": 1
+    },
+    {
+      "id": "adu_doc_1787943119981_qq6as_001",
+      "type": "ADU",
+      "label": "[CLAIM] Secret keys must never be written to RuntimeGraph or state payloads.",
+      "properties": {
+        "aduType": "CLAIM",
+        "content": "Secret keys must never be written to RuntimeGraph or state payloads.",
+        "confidence": 0.85,
+        "tags": [
+          "claim",
+          "paragraph"
+        ],
+        "entities": [
+          "Secret",
+          "RuntimeGraph"
+        ],
+        "lineRange": "1-1"
+      },
+      "provenance": {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "location": {
+          "startLine": 1,
+          "endLine": 1,
+          "sectionHeading": "Document Root"
+        },
+        "extractionStage": "ADU_SEGMENTATION",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Segmenter-v1"
+      },
+      "createdAt": "2026-08-28T18:51:59.982Z",
+      "updatedAt": "2026-08-28T18:51:59.982Z",
+      "version": 1
+    },
+    {
+      "id": "entity_secret",
+      "type": "ENTITY",
+      "label": "Secret",
+      "properties": {
+        "entityName": "Secret",
+        "domain": "Security"
+      },
+      "provenance": {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "location": {
+          "startLine": 1,
+          "endLine": 1,
+          "sectionHeading": "Document Root"
+        },
+        "extractionStage": "ADU_SEGMENTATION",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Segmenter-v1"
+      },
+      "createdAt": "2026-08-28T18:51:59.982Z",
+      "updatedAt": "2026-08-28T18:51:59.982Z",
+      "version": 1
+    },
+    {
+      "id": "entity_runtimegraph",
+      "type": "ENTITY",
+      "label": "RuntimeGraph",
+      "properties": {
+        "entityName": "RuntimeGraph",
+        "domain": "Security"
+      },
+      "provenance": {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "location": {
+          "startLine": 1,
+          "endLine": 1,
+          "sectionHeading": "Document Root"
+        },
+        "extractionStage": "ADU_SEGMENTATION",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Segmenter-v1"
+      },
+      "createdAt": "2026-08-28T18:51:59.982Z",
+      "updatedAt": "2026-08-28T18:51:59.982Z",
+      "version": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_adu_doc_1787943119981_qq6as_001_EXTRACTED_FROM_doc_1787943119981_qq6as",
+      "sourceNodeId": "adu_doc_1787943119981_qq6as_001",
+      "targetNodeId": "doc_1787943119981_qq6as",
+      "type": "EXTRACTED_FROM",
+      "label": "Extracted From Source",
+      "properties": {},
+      "provenance": {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "location": {
+          "startLine": 1,
+          "endLine": 1,
+          "sectionHeading": "Document Root"
+        },
+        "extractionStage": "ADU_SEGMENTATION",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Segmenter-v1"
+      },
+      "createdAt": "2026-08-28T18:51:59.982Z"
+    },
+    {
+      "id": "edge_adu_doc_1787943119981_qq6as_001_REFERENCES_entity_secret",
+      "sourceNodeId": "adu_doc_1787943119981_qq6as_001",
+      "targetNodeId": "entity_secret",
+      "type": "REFERENCES",
+      "label": "Mentions Entity",
+      "properties": {},
+      "provenance": {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "location": {
+          "startLine": 1,
+          "endLine": 1,
+          "sectionHeading": "Document Root"
+        },
+        "extractionStage": "ADU_SEGMENTATION",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Segmenter-v1"
+      },
+      "createdAt": "2026-08-28T18:51:59.982Z"
+    },
+    {
+      "id": "edge_adu_doc_1787943119981_qq6as_001_REFERENCES_entity_runtimegraph",
+      "sourceNodeId": "adu_doc_1787943119981_qq6as_001",
+      "targetNodeId": "entity_runtimegraph",
+      "type": "REFERENCES",
+      "label": "Mentions Entity",
+      "properties": {},
+      "provenance": {
+        "sourceId": "doc_1787943119981_qq6as",
+        "sourceType": "DOCUMENT",
+        "sourceUri": "doc://doc_1787943119981_qq6as",
+        "sourceTitle": "Security Boundary Document",
+        "location": {
+          "startLine": 1,
+          "endLine": 1,
+          "sectionHeading": "Document Root"
+        },
+        "extractionStage": "ADU_SEGMENTATION",
+        "timestamp": "2026-08-28T18:51:59.982Z",
+        "agentOrModel": "EKP-Canonical-Segmenter-v1"
+      },
+      "createdAt": "2026-08-28T18:51:59.982Z"
+    }
+  ],
+  "transactions": [],
+  "snapshots": []
+}

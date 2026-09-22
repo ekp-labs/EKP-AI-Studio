@@ -1,0 +1,8 @@
+{
+  "name": "Epistemic Knowledge Platform",
+  "description": "Governed epistemic knowledge and reasoning engine with strict human governance, complete provenance, and decoupled persistence",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

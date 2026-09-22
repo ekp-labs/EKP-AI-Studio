@@ -1,0 +1,40 @@
+[
+  {
+    "id": "doc_1787943633837_vrbaa",
+    "label": "Security Boundary Document",
+    "type": "DOCUMENT",
+    "properties": {
+      "domain": "Security",
+      "sourceUri": "doc://security-boundary-document"
+    },
+    "provenance": {
+      "sourceUri": "doc://security-boundary-document",
+      "sourceTitle": "Security Boundary Document",
+      "extractedAt": 1787943633837,
+      "extractionStage": "DOCUMENT_INGESTION"
+    },
+    "version": 1,
+    "createdAt": 1787943633837,
+    "updatedAt": 1787943633837
+  },
+  {
+    "id": "adu_doc_1787943633837_vrbaa_1",
+    "label": "Secret keys must never be written to Run...",
+    "type": "ADU",
+    "properties": {
+      "type": "REQUIREMENT",
+      "confidence": 0.9
+    },
+    "provenance": {
+      "sourceUri": "doc://security-boundary-document",
+      "sourceTitle": "Security Boundary Document",
+      "extractedAt": 1787943633837,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 1,
+      "endLine": 1
+    },
+    "version": 1,
+    "createdAt": 1787943633837,
+    "updatedAt": 1787943633837
+  }
+]

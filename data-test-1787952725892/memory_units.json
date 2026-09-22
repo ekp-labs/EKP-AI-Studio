@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mem_1787952727785_uqcwm",
+    "concept": "Calibration frequency requirement",
+    "status": "CORROBORATED",
+    "supportingAduIds": [
+      "adu_doc_1787952727416_19152_1",
+      "adu_doc_1787952727416_19152_2",
+      "adu_doc_1787952727416_19152_3"
+    ],
+    "contradictingAduIds": [],
+    "confidence": 0.85,
+    "lastAssessedAt": 1787952727785
+  }
+]

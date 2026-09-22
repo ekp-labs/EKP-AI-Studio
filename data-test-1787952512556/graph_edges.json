@@ -1,0 +1,62 @@
+[
+  {
+    "id": "edge_adu_doc_1787952514116_b3iap_1_doc_1787952514116_b3iap",
+    "sourceId": "adu_doc_1787952514116_b3iap_1",
+    "targetId": "doc_1787952514116_b3iap",
+    "type": "EXTRACTED_FROM",
+    "weight": 1,
+    "properties": {},
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787952514117,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 1,
+      "endLine": 1
+    },
+    "createdAt": 1787952514117
+  },
+  {
+    "id": "edge_adu_doc_1787952514116_b3iap_2_doc_1787952514116_b3iap",
+    "sourceId": "adu_doc_1787952514116_b3iap_2",
+    "targetId": "doc_1787952514116_b3iap",
+    "type": "EXTRACTED_FROM",
+    "weight": 1,
+    "properties": {},
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787952514117,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 2,
+      "endLine": 2
+    },
+    "createdAt": 1787952514117
+  },
+  {
+    "id": "edge_adu_doc_1787952514116_b3iap_3_doc_1787952514116_b3iap",
+    "sourceId": "adu_doc_1787952514116_b3iap_3",
+    "targetId": "doc_1787952514116_b3iap",
+    "type": "EXTRACTED_FROM",
+    "weight": 1,
+    "properties": {},
+    "provenance": {
+      "sourceUri": "doc://process-persistence-test-spec",
+      "sourceTitle": "Process Persistence Test Spec",
+      "extractedAt": 1787952514117,
+      "extractionStage": "ADU_EXTRACTION",
+      "startLine": 3,
+      "endLine": 3
+    },
+    "createdAt": 1787952514117
+  },
+  {
+    "id": "edge_act_node_1787952514506_tl6fc_res_node_1787952514506_79o36",
+    "sourceId": "act_node_1787952514506_tl6fc",
+    "targetId": "res_node_1787952514506_79o36",
+    "type": "PRODUCES",
+    "weight": 1,
+    "properties": {},
+    "createdAt": 1787952514506
+  }
+]

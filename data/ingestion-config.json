@@ -1,0 +1,111 @@
+{
+  "enabled": true,
+  "directories": [
+    {
+      "id": "dir_1787952507026_ki1l",
+      "path": "/tmp/ekp-phase6a-test-fdCuv9",
+      "enabled": true,
+      "recursive": true,
+      "namespace": "Aerospace"
+    },
+    {
+      "id": "dir_1787952507036_yavd",
+      "path": "/tmp/ekp-phase6a-test-fdCuv9/dup-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Security"
+    },
+    {
+      "id": "dir_1787952507044_3qwb",
+      "path": "/tmp/ekp-phase6a-test-fdCuv9/mod-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Aerospace"
+    },
+    {
+      "id": "dir_1787952507059_3b5x",
+      "path": "/tmp/ekp-phase6a-test-fdCuv9/del-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Temp"
+    },
+    {
+      "id": "dir_1787952507074_o4zw",
+      "path": "/tmp/ekp-phase6a-test-fdCuv9/watch-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Realtime"
+    },
+    {
+      "id": "dir_1787952562870_dq2q",
+      "path": "/tmp/ekp-phase6a-test-CDPe2Q",
+      "enabled": true,
+      "recursive": true,
+      "namespace": "Aerospace"
+    },
+    {
+      "id": "dir_1787952562877_8z0y",
+      "path": "/tmp/ekp-phase6a-test-CDPe2Q/dup-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Security"
+    },
+    {
+      "id": "dir_1787952562888_fzno",
+      "path": "/tmp/ekp-phase6a-test-CDPe2Q/mod-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Aerospace"
+    },
+    {
+      "id": "dir_1787952562903_6tgk",
+      "path": "/tmp/ekp-phase6a-test-CDPe2Q/del-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Temp"
+    },
+    {
+      "id": "dir_1787952562919_a7m6",
+      "path": "/tmp/ekp-phase6a-test-CDPe2Q/watch-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Realtime"
+    },
+    {
+      "id": "dir_1787952640379_8c22",
+      "path": "/tmp/ekp-phase6a-test-22OAg3/disc-test",
+      "enabled": true,
+      "recursive": true,
+      "namespace": "Aerospace"
+    },
+    {
+      "id": "dir_1787952640384_qxll",
+      "path": "/tmp/ekp-phase6a-test-22OAg3/dup-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Security"
+    },
+    {
+      "id": "dir_1787952640388_9fme",
+      "path": "/tmp/ekp-phase6a-test-22OAg3/mod-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Aerospace"
+    },
+    {
+      "id": "dir_1787952640421_o5xz",
+      "path": "/tmp/ekp-phase6a-test-22OAg3/del-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Temp"
+    },
+    {
+      "id": "dir_1787952640430_ujlu",
+      "path": "/tmp/ekp-phase6a-test-22OAg3/watch-test",
+      "enabled": true,
+      "recursive": false,
+      "namespace": "Realtime"
+    }
+  ],
+  "debounceMs": 300
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "mem_1787954312662_u5gbd",
+    "concept": "Calibration frequency requirement",
+    "status": "CORROBORATED",
+    "supportingAduIds": [
+      "adu_doc_1787954312286_kcs32_1",
+      "adu_doc_1787954312286_kcs32_2",
+      "adu_doc_1787954312286_kcs32_3"
+    ],
+    "contradictingAduIds": [],
+    "confidence": 0.85,
+    "lastAssessedAt": 1787954312662
+  }
+]
