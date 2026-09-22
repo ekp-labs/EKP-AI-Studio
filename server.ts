@@ -49,6 +49,44 @@ async function startServer() {
     }
   });
 
+  app.get('/api/search', (req, res) => {
+    try {
+      const q = String(req.query.q || '').toLowerCase().trim();
+      if (!q) {
+        res.json({ success: true, results: [] });
+        return;
+      }
+
+      const allAdus = gateway.library.getAllADUs();
+      const allDocs = gateway.library.getAllDocuments();
+      const docMap = new Map(allDocs.map((d) => [d.id, d]));
+
+      const matchedAdus = allAdus.filter((adu) => {
+        const contentMatch = adu.content.toLowerCase().includes(q);
+        const typeMatch = adu.type.toLowerCase().includes(q);
+        const entityMatch = adu.entities?.some((e: string) => e.toLowerCase().includes(q));
+        const doc = docMap.get(adu.documentId);
+        const titleMatch = doc?.title.toLowerCase().includes(q);
+        const domainMatch = doc?.domain.toLowerCase().includes(q);
+        return contentMatch || typeMatch || entityMatch || titleMatch || domainMatch;
+      });
+
+      const results = matchedAdus.map((adu) => {
+        const doc = docMap.get(adu.documentId);
+        return {
+          adu,
+          documentTitle: doc?.title || 'Unknown Document',
+          domain: doc?.domain || 'General',
+          sourceUri: doc?.sourceUri || 'local',
+        };
+      });
+
+      res.json({ success: true, count: results.length, results });
+    } catch (err: any) {
+      res.status(500).json({ success: false, error: err.message });
+    }
+  });
+
   app.post('/api/ingest', async (req, res) => {
     try {
       const { title, domain, content, sourceUri } = req.body;
